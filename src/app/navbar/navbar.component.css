@@ -1,0 +1,119 @@
+.navbar-custom { 
+    background-color: #ffffff; 
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    /* border-bottom: 4px solid  #f2c210; */
+} 
+
+.navbar-custom .navbar-nav .nav-item .nav-link{ 
+    padding: 20px 30px 28px 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    font-family: Whitney-SemiBold, Whitney;
+    color: #282C3F;
+    border-bottom: none;
+    font-weight: 800;
+    text-transform: uppercase;
+} 
+
+.navbar-custom .search-query{
+    margin-left:40px;
+    color: #696E79;
+}
+
+.navbar-custom .search-query .input-group input{
+    border:0px;
+    background-color: #F5F5F6;
+}
+
+.navbar-custom .desktop-query input.desktop-searchBar {
+    font-family: Whitney;
+    margin-left: 80px;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 24px;
+    width: 100%;
+    color: #696E79;
+    background-color: #F5F5F6;
+    border:0px;
+}
+
+a.desktop-submit .fa{
+    box-sizing: content-box;
+    height: 20px;
+    width: 34px;
+    text-align: center;
+    padding: 8px 0 2px 0;
+    background: #F5F5F6;
+    border: 1px solid #F5F5F6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    position: absolute;
+    left: 100px;
+    margin-left: 888px;
+    margin-top: -38px;
+}
+
+.user-actions{
+    padding: 8px;
+}
+
+.user-actions .user{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.user-actions .wishlist{
+      font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.user{
+    margin-left: 230px;
+}
+
+.user p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.user a,.wishlist a,.cart a{
+     text-decoration: none;
+     color:black;
+}
+
+.wishlist p{
+    font-size: 12px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.cart p{
+    font-size: 12px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top:8px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

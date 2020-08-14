@@ -1,0 +1,2 @@
+[0218/174552.986:ERROR:icu_util.cc(133)] Invalid file descriptor to ICU data received.
+[0218/174553.033:FATAL:v8_initializer.cc(180)] Failed to open V8 file 'C:\Program Files\Microsoft VS Code\natives_blob.bin' (reason: -4)

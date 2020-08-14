@@ -1,0 +1,12 @@
+
+#card-images{
+    margin-top:-240px;
+}
+
+.img-cards img{
+    width:320px;
+    height:400px;
+    margin-left:30px;
+    padding:5px;
+    border-radius:8px;
+}
